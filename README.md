@@ -18,8 +18,8 @@ npm start # развернуть сервер по адресу localhost
 
 ## Структура проекта
 
-В папке server содержится код сервера на Node.js + Express
-В папке client содержится SPA, написанное на чистом HTML/CSS/JS
+В папке server содержится код сервера на Node.js + Express.
+В папке client содержится SPA, написанное на чистом HTML/CSS/JS.
 
 ## Скриншот
 
