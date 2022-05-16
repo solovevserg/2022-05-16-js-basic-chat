@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Ultra Chat</h1>
+    <!-- Контейнер, внутри которого будут размещаться элементы li для сообщений -->
+    <ul id="list-messages"></ul>
+    <div class="row">
+        <!-- Поле для ввода имени -->
+        <input type="text" id="input-author" placeholder="Enter your name...">
+        <!-- Поле для ввода сообщения -->
+        <input type="text" id="input-text" placeholder="Write a message" autofocus>
+        <!-- Кнопка для отправки сообщения -->
+        <button id="button-send" title="Send the message (or press Enter)">Send</button>
+    </div>
+    <!-- Копирайт -->
+    <p>&copy; Sergei Solovev, 2022.</p>
+    <!-- Подключение скрипта с логикой отправки и получения сообщений -->
+    <script src="js/client.js"></script>
+</body>
+
+</html>
